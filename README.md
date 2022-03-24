@@ -10,7 +10,6 @@ https://sqlitebrowser.org/dl/ linkinden SqLite Browser indir
 
 # Data Bağlantısı
 
-    // bu bir yorum satırı
     public class MyContext : DbContext  // DbContext kalıtım
     {
         public DbSet<UserModel> Users { get; set; } // Oluşturacağın Tablo
