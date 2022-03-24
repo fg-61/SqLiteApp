@@ -1,14 +1,14 @@
-# SqLiteApp
+## SqLiteApp
 SqLite user tablosu oluşturuldu
 
-# SqLite kullanmak için aşağıdaki NuGet'lar eklendi;
-1- Microsoft.EntityFrameworkCore.Sqlite
-2- Microsoft.EntityFrameworkCore.Tools
+### SqLite kullanmak için aşağıdaki NuGet'lar eklendi;
+1. Microsoft.EntityFrameworkCore.Sqlite
+2. Microsoft.EntityFrameworkCore.Tools
 
-# Database Görmek İçin
+### Database Görmek İçin
 https://sqlitebrowser.org/dl/ linkinden SqLite Browser indir
 
-# Data Bağlantısı
+### Data Bağlantısı
 
     public class MyContext : DbContext  // DbContext kalıtım
     {
